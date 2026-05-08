@@ -1,0 +1,19 @@
+<resources>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="purple_200">#BB86FC</color>
+    <color name="link_blue">#1E88E5</color>
+    <color name="background_light">#F5F5F5</color>
+    <color name="splash_background">#2193b0</color>
+    <color name="primary">#1976D2</color>       <!-- Blue -->
+    <color name="secondary">#388E3C</color>
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="text_primary">#FF000000</color>
+    <color name="text_secondary">#424242</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="dashboardBackground">#64B5f6</color> <!-- A nice blue -->
+    </resources>

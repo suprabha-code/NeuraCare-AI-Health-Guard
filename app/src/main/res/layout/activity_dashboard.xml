@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Main Content -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dashboardBackground">
+
+        <!-- Toolbar -->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="@string/dashboard_title"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:contentDescription="@string/dashboard_toolbar_description"/>
+
+        <!-- Vitals Section -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <!-- Heart Rate -->
+                <TextView
+                    android:id="@+id/heartRateText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/heart_rate_placeholder"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_marginBottom="8dp"
+                    android:contentDescription="@string/desc_heart_rate"/>
+
+                <!-- SpO₂ -->
+                <TextView
+                    android:id="@+id/spo2Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/spo2_placeholder"
+                    android:textSize="18sp"
+                    android:textColor="@color/text_primary"
+                    android:layout_marginBottom="8dp"
+                    android:contentDescription="@string/desc_spo2"/>
+
+                <!-- Temperature -->
+                <TextView
+                    android:id="@+id/temperatureText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/temperature_placeholder"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_primary"
+                    android:layout_marginBottom="8dp"
+                    android:contentDescription="@string/desc_temperature"/>
+
+                <!-- Last Updated -->
+                <TextView
+                    android:id="@+id/lastUpdatedText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/last_updated"
+                    android:textSize="14sp"
+                    android:textColor="#424242"
+                    android:layout_marginBottom="8dp"
+                    android:contentDescription="@string/desc_last_updated"/>
+
+                <!-- AI Advice -->
+                <TextView
+                    android:id="@+id/aiAdviceText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ai_advice_placeholder"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginBottom="8dp"
+                    android:contentDescription="@string/desc_ai_advice"/>
+
+                <!-- BLE Status -->
+                <TextView
+                    android:id="@+id/bleStatusText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ble_status_disconnected"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:layout_marginBottom="16dp"
+                    android:contentDescription="@string/desc_ble_status"/>
+                <ProgressBar
+                    android:id="@+id/bleProgressBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:visibility="gone"
+                    style="?android:attr/progressBarStyleSmall"
+                    android:layout_marginBottom="8dp"
+                    android:contentDescription="@string/desc_ble_progress" />
+
+
+                <Button
+                    android:id="@+id/btnReconnectBLE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reconnect_ble"
+                    android:layout_gravity="center_horizontal"
+                    android:visibility="gone"
+                    android:contentDescription="@string/desc_reconnect_ble" />
+
+
+                <!-- Refresh Button -->
+                <Button
+                    android:id="@+id/btnRefreshVitals"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/refresh_vitals"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/desc_refresh_button"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <!-- Navigation Drawer -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header_dashboard"
+        app:menu="@menu/nav_menu"
+        android:contentDescription="@string/desc_navigation_drawer"/>
+</androidx.drawerlayout.widget.DrawerLayout>

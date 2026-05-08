@@ -1,0 +1,21 @@
+// settings.gradle (Groovy DSL example)
+
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+
+    }
+}
+
+rootProject.name = "neuracareapp"
+include(":app")

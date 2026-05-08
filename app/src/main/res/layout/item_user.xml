@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    android:background="?attr/colorPrimaryDark">
+
+    <ImageView
+        android:id="@+id/userAvatar"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_user"
+        android:contentDescription="@string/app_logo_desc"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/circle_background"
+        android:padding="4dp" />
+
+    <TextView
+        android:id="@+id/headerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_name"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/headerEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_email"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/headerPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_phone"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

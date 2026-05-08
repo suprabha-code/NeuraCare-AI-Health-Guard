@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2193b0"> <!-- Teal background -->
+
+    <ImageView
+        android:id="@+id/logoIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/ic_heart" /> <!-- Your heart icon -->
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="28sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_below="@id/logoIcon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/splash_tagline"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/appName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+    <!-- Optional: Dots indicator -->
+    <LinearLayout
+        android:id="@+id/dotsContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:orientation="horizontal">
+
+        <!-- Add 7 dots, highlight the 4th -->
+        <View android:layout_width="8dp" android:layout_height="8dp" android:background="@drawable/dot_inactive" android:layout_margin="4dp"/>
+        <View android:layout_width="8dp" android:layout_height="8dp" android:background="@drawable/dot_inactive" android:layout_margin="4dp"/>
+        <View android:layout_width="8dp" android:layout_height="8dp" android:background="@drawable/dot_inactive" android:layout_margin="4dp"/>
+        <View android:layout_width="8dp" android:layout_height="8dp" android:background="@drawable/dot_active" android:layout_margin="4dp"/>
+        <View android:layout_width="8dp" android:layout_height="8dp" android:background="@drawable/dot_inactive" android:layout_margin="4dp"/>
+        <View android:layout_width="8dp" android:layout_height="8dp" android:background="@drawable/dot_inactive" android:layout_margin="4dp"/>
+        <View android:layout_width="8dp" android:layout_height="8dp" android:background="@drawable/dot_inactive" android:layout_margin="4dp"/>
+    </LinearLayout>
+</RelativeLayout>

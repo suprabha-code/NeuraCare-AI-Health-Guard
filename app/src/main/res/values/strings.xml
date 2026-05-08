@@ -1,0 +1,192 @@
+<resources>
+    <!-- App Identity -->
+    <string name="app_name">NeuraCareApp</string>
+    <string name="profile_image_desc">Profile image</string>
+    <string name="splash_tagline">Your AI-Powered Health Companion</string>
+
+    <!-- Authentication -->
+    <string name="create_account">Create Your Account</string>
+    <string name="join_neuracare">Join NeuraCare to stay monitored anytime, anywhere.</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="welcome_text">Welcome to NeuraCare</string>
+    <string name="tagline_text">Stay safe, stay monitored — anytime, anywhere</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="user_name_hint">Enter your Name</string>
+    <string name="email_hint">Enter your Email</string>
+    <string name="password_hint">Enter your Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="phone_hint">Enter your Phone</string>
+    <string name="user_id_hint">Enter your User ID</string>
+    <string name="login_button_desc">Login to your account</string>
+    <string name="register_button_desc">Create a new account</string>
+    <string name="signup">Signup</string>
+    <string name="signup_button_desc">Signup button</string>
+    <string name="login_redirect">Already have an account? Log in</string>
+    <string name="login_redirect_desc">Login redirect link</string>
+    <string name="forgot_password_desc">Forgot password link</string>
+    <string name="toggle_password_show">Show</string>
+    <string name="toggle_password_hide">Hide</string>
+    <string name="email_field_desc">Email input field</string>
+    <string name="password_field_desc">Password input field</string>
+    <string name="register_prompt">Do not have an account? Register</string>
+    <!-- Validation & Feedback -->
+    <string name="sign_in_prompt">Please sign in to access your health dashboard</string>
+    <string name="invalid_email">Invalid email format</string>
+    <string name="invalid_password">Password must be at least 6 characters</string>
+    <string name="invalid_phone">Enter a valid 10-digit phone number</string>
+    <string name="empty_fields">Please fill all fields</string>
+    <string name="registration_success">Registration successful!</string>
+    <string name="registration_failed">Registration failed. Please try again.</string>
+    <string name="login_success">Login successful!</string>
+    <string name="login_failed">Login failed. Check your credentials.</string>
+    <string name="error_user_not_found">No account found with this email.</string>
+    <string name="error_wrong_password">Incorrect password. Please try again.</string>
+    <string name="error_unknown">Login failed: Unknown error</string>
+    <string name="email_verification_required">Please verify your email before logging in.</string>
+    <string name="user_data_save_failed">Failed to save user data</string>
+    <string name="email_already_registered">Email already registered. Please log in.</string>
+    <string name="password_reset_email_sent">Password reset email sent</string>
+    <string name="password_reset_failed">Failed to send reset email</string>
+
+    <!-- Intro -->
+    <string name="intro">Welcome to NeuraCareApp</string>
+    <string name="intro2">Your health, monitored in real time</string>
+    <string name="intro3">Sign in or register to begin</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">NeuraCare Dashboard</string>
+    <string name="welcome_message">Welcome dear user</string>
+    <string name="connection_status">Wearable Connected | Last update: %1$s</string>
+    <string name="live_monitoring_status">Live Monitoring Active</string>
+
+    <!-- Vitals -->
+    <string name="heart_rate_label">Heart Rate</string>
+    <string name="oxygen_label">Oxygen Saturation</string>
+    <string name="temperature_label">Temperature</string>
+    <string name="stress_label">Stress Level</string>
+    <string name="normal_status">Normal</string>
+
+    <!-- Health Alerts -->
+    <string name="alert_title">Health Alert</string>
+    <string name="alert_heart_rate">Heart Rate elevated: %1$d BPM</string>
+    <string name="alert_severity">Severity: %1$s</string>
+    <string name="alert_time">Recorded at %1$s</string>
+    <string name="alert_action">Action: %1$s</string>
+
+    <!-- SOS -->
+    <string name="sos">SOS</string>
+    <string name="sos_instruction">Hold for 5 seconds to activate emergency alert</string>
+    <string name="sos_button_desc">Emergency SOS button</string>
+    <string name="sos_response_description">Your location and medical info will be shared with emergency contacts and professionals</string>
+    <string name="sos_activated">Emergency SOS Activated</string>
+
+    <!-- Dashboard Tabs -->
+    <string name="add_history">Add History</string>
+    <string name="view_history">View History</string>
+    <string name="logo_description">NeuraCare Logo</string>
+
+    <!-- Add History Fragment -->
+    <string name="history_hint">Describe your medical history</string>
+    <string name="save">Save</string>
+    <string name="save_button_desc">Save history button</string>
+    <string name="history_autofill">medical history</string>
+
+    <!-- View History Fragment -->
+    <string name="view_history_placeholder">Your saved medical history will appear here.</string>
+
+    <!-- Branding -->
+    <string name="app_logo_desc">App logo</string>
+    <string name="appointments">Appointments</string>
+    <string name="reports">Reports</string>
+    <string name="profile">Profile</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_medical_history">Medical History</string>
+    <string name="nav_emergency_contacts">Emergency Contacts</string>
+    <string name="nav_profile">Profile</string>
+    <string name="welcome_test_activity">Welcome to TestActivity!</string>
+
+    <!-- Accessibility Descriptions -->
+    <string name="appointments_card_desc">Appointments card</string>
+    <string name="reports_card_desc">Reports card</string>
+    <string name="profile_card_desc">Profile card</string>
+    <string name="user_name">Your Name</string>
+    <string name="user_email">your.email@example.com</string>
+    <string name="user_phone">+91-XXXXXXXXXX</string>
+    <string name="dashboard_home_text">Welcome to your Dashboard</string>
+    <string name="dashboard_profile_text">Your Profile Information</string>
+    <string name="dashboard_settings_text">App Settings &amp; Preferences</string>
+    <string name="nav_add_history">Add Medical History</string>
+    <string name="nav_view_history">View Medical History</string>
+    <string name="nav_sos">SOS</string>
+    <string name="nav_emergency_contact">Emergency Contact</string>
+    <string name="nav_logout">Logout</string>
+
+    <!-- SOS Message -->
+    <string name="anxiety_label">Anxiety Level: Low</string>
+    <string name="header_name_label">Name</string>
+    <string name="header_email_label">Email</string>
+    <string name="header_phone_label">Phone</string>
+    <string name="spo2_label">SpO₂: 98%</string>
+    <string name="emergency_contacts_title">Emergency Contacts</string>
+    <string name="contact_name_hint">Contact Name</string>
+    <string name="contact_phone_hint">Phone Number</string>
+    <string name="add_contact_button">Add Contact</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_phone">Phone Number</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="last_updated">last updated</string>
+
+    <string name="date_time">Saturday, 27 Sept 2025 – 12:05 AM</string>
+    <string name="status_active">Monitoring active </string>
+    <string name="ai_tip_text">Heart rate is slightly above your average. Try deep breathing exercises.</string>
+    <string name="connect_watch">Connect to Smartwatch</string>
+
+    <string name="heart_rate">Heart Rate: 75 bpm</string>
+    <string name="spo2">SpO₂: 98%</string>
+    <string name="temperature">Temperature: 98.6°F</string>
+    <string name="refresh_vitals">REFRESH VITALS</string>
+    <string name="profile_name_label">Name</string>
+    <string name="profile_email_label">Email</string>
+    <string name="profile_phone_label">Phone</string>
+    <string name="profile_password_label">Password</string>
+    <string name="ble_status_disconnected">BLE Status: Disconnected</string>
+    <string name="ble_status_scanning">BLE Status: Scanning</string>
+    <string name="ble_status_connected">BLE Status: Connected</string>
+    <string name="desc_ble_status">Bluetooth connection status</string>
+    <string name="desc_ble_progress">BLE scanning indicator</string>
+    <string name="reconnect_ble">Reconnect BLE</string>
+    <string name="desc_reconnect_ble">Reconnect BLE button</string>
+
+    <!-- Drawer Strings -->
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="heart_rate_placeholder">Heart Rate:-bpm</string>
+    <string name="spo2_placeholder">SpO₂:-%</string>
+    <string name="temperature_placeholder">Temperature:-°F</string>
+    <string name="ai_advice_placeholder">AI Advice will appear here</string>
+    <string name="spo2_value1">SpO₂: 98%</string>
+    <string name="spo2_value2">SpO₂: 95%</string>
+    <string name="ai_advice_normal">Advice: All vitals are normal.</string>
+    <string name="heart_rate_value">Heart Rate: %1$d bpm</string>
+    <string name="spo2_value">SpO₂: %1$d%%</string>
+    <string name="temperature_value">Temperature: %.1f°F</string>
+    <string name="ai_advice_emergency">Emergency detected! SOS alert sent.</string>
+    <string name="dashboard_toolbar_description">Toolbar showing NeuraCare Dashboard title</string>
+    <string name="desc_heart_rate">Displays heart rate value in beats per minute</string>
+    <string name="desc_spo2">Displays blood oxygen saturation percentage</string>
+    <string name="desc_temperature">Displays body temperature in Fahrenheit</string>
+    <string name="desc_last_updated">Shows the time when vitals were last updated</string>
+    <string name="desc_ai_advice">Displays AI-generated health advice based on current vitals</string>
+    <string name="desc_navigation_drawer">Navigation drawer with options for history, emergency contact, and logout</string>
+    <string name="desc_refresh_button">Tap to refresh and update health vitals</string>
+    <string name="last_updated_placeholder">Last updated:</string>
+    <string name="last_updated_actual">Last updated: 12:45 PM</string>
+</resources>
