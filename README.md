@@ -11,7 +11,7 @@ NeuraCare is a Smart India Hackathon (SIH) healthcare innovation project focused
 - AI-assisted healthcare workflow
 
 ## Tech Stack
-- Kotlin
+- Java
 - Android Studio
 - Firebase
 - TinyML Concepts
